@@ -1,7 +1,7 @@
 import * as express from 'express';
 var app = express();
 
-app.post('/', function (req, res) {
+app.get('/', function (req, res) {
   res.send({hello: 'world'})
 });
 app.listen(6522);

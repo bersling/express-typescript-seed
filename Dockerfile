@@ -11,6 +11,4 @@ ENV NODE_ENV production
 
 EXPOSE 6522
 
-HEALTHCHECK CMD curl --fail http://localhost:6522/ || exit 1
-
 CMD ["npm", "run", "start:prod"]
