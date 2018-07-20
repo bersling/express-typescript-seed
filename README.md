@@ -1,4 +1,4 @@
-# express-typescript-seed
+# express-typescript-example
 
 Template / Boilerplate / Starterkit for Node.js Express WebService written in TypeScript.
 
