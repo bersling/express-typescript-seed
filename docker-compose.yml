@@ -1,6 +1,6 @@
 version: '3.2'
 services:
-  myservice:
+  main:
     image: tsmean/express-typescript-example
     deploy:
       resources:
